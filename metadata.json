@@ -1,0 +1,22 @@
+{
+  "name": "siebrand-yum_delay",
+  "version": "0.0.1",
+  "author": "siebrand",
+  "summary": "yum-delay module",
+  "license": "GPL-2.0",
+  "source": "git://github.com/siebrand/puppet-yum_delay.git",
+  "description": "yum-delay module",
+  "issues_url": "https://github.com/siebrand/puppet-yum_delay/issues",
+  "project_page": "http://github.com/siebrand/puppet-yum_delay",
+  "tags": [ "yum", "yum-delay" ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [ "7" ]
+    }
+  ],
+  "dependencies": [],
+  "requirements": [
+    {"name": "puppet", "version_requirement": ">= 4.7.0 < 7.0.0" }
+  ]
+}
