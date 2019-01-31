@@ -18,8 +18,6 @@ The yum_delay module adds a plugin to the yum package to delay updating packages
 
 The default parameters will add a yum plugin that will delay updates for 24 hours after reaching a repository.
 
-This module has only been tested with CentOS 7. If you have compatibility updates, please create a documentation update.
-
 This is an example of delaying package installation by 72 hours.
 
     class { 'yum_delay':
@@ -50,6 +48,4 @@ Defines the number of hours to delay installation of updates from yumn repositor
 
 This module should be compatible with all CentOS 7 based operating systems and Puppet 4.7.x and later.
 
-It has only been tested on:
-
-* CentOS 7.6
+If you have compatibility updates, please create a documentation update.

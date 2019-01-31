@@ -1,6 +1,6 @@
 {
   "name": "siebrand-yum_delay",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": "siebrand",
   "summary": "yum-delay module",
   "license": "GPL-2.0",
