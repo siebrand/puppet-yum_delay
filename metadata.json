@@ -1,22 +1,35 @@
 {
   "name": "siebrand-yum_delay",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "author": "siebrand",
   "summary": "yum-delay module",
   "license": "GPL-2.0",
   "source": "git://github.com/siebrand/puppet-yum_delay.git",
-  "description": "yum-delay module",
-  "issues_url": "https://github.com/siebrand/puppet-yum_delay/issues",
   "project_page": "http://github.com/siebrand/puppet-yum_delay",
-  "tags": [ "yum", "yum-delay" ],
+  "issues_url": "https://github.com/siebrand/puppet-yum_delay/issues",
+  "dependencies": [
+
+  ],
   "operatingsystem_support": [
     {
       "operatingsystem": "CentOS",
-      "operatingsystemrelease": [ "7" ]
+      "operatingsystemrelease": [
+        "7"
+      ]
     }
   ],
-  "dependencies": [],
   "requirements": [
-    {"name": "puppet", "version_requirement": ">= 4.7.0 < 7.0.0" }
-  ]
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.7.0 < 7.0.0"
+    }
+  ],
+  "description": "yum-delay module",
+  "tags": [
+    "yum",
+    "yum-delay"
+  ],
+  "pdk-version": "1.15.0",
+  "template-url": "https://github.com/puppetlabs/pdk-templates#master",
+  "template-ref": "heads/master-0-g941e819"
 }
